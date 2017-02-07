@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.22"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_weight="0.38"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/invite_your_friend"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_22sdp" />
+
+
+        <com.material.widget.EditText
+            android:id="@+id/et_inviteByEmail_email"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ic_email_grey_20dp"
+            android:drawablePadding="@dimen/_8sdp"
+            android:drawableStart="@drawable/ic_email_grey_20dp"
+            android:gravity="center_vertical"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:textSize="@dimen/_14sdp"
+            app:et_dividerErrorColor="@color/error"
+            app:et_supportMode="helper"
+            app:et_supportTextErrorColor="@color/error" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Enter friend's email below to send invitation"
+            android:textSize="@dimen/_16sdp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.material.widget.Button
+            android:id="@+id/btn_inviteByEmail_invite"
+            style="@style/RaiseWaveColorButtonRippleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/invite"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="normal"
+            tools:ignore="UnusedAttribute" />
+    </LinearLayout>
+
+</LinearLayout>

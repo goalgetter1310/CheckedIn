@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_home_tab_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+        <!--<com.checkedin.tablayout.TabLayout-->
+            <!--android:id="@+id/tab_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:tabGravity="fill"-->
+            <!--app:tabMode="fixed" />-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/toolbar_shadow" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ll_home_friends_activity"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_weight="1"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_4sdp"
+                android:tint="@color/colorPrimary"
+                android:layout_margin="@dimen/_1sdp"
+                android:background="@color/color_dark_orange"
+                android:src="@drawable/ic_tab_home_h" />
+
+            <ImageView
+                android:id="@+id/ll_home_location"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_1sdp"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_tab_location" />
+
+            <ImageView
+                android:id="@+id/ll_home_checkedin_lounge"
+                android:layout_width="0dp"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_weight="1"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_tab_lounge" />
+
+            <ImageView
+                android:id="@+id/ll_home_my_activity"
+                android:layout_width="0dp"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_weight="1"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_tab_activity" />
+
+            <ImageView
+                android:id="@+id/ll_home_future_plan"
+                android:layout_width="0dp"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_weight="1"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_tab_planning" />
+
+            <ImageView
+                android:id="@+id/ll_home_chatbox"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_weight="1"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_chatbox_main"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

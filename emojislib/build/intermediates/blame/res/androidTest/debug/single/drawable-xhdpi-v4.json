@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_objects_light_activated.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_objects_light_activated.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_places_light_activated.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_places_light_activated.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_nature_light_normal.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_nature_light_normal.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_nature_light_activated.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_nature_light_activated.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_symbols_light_normal.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_symbols_light_normal.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_recent_light_normal.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_recent_light_normal.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/sym_keyboard_delete_holo_dark.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/sym_keyboard_delete_holo_dark.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_people_light_activated.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_people_light_activated.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_recent_light_activated.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_recent_light_activated.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_objects_light_normal.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_objects_light_normal.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_people_light_normal.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_people_light_normal.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_symbols_light_activated.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_symbols_light_activated.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_emoji_places_light_normal.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_places_light_normal.png"
+    },
+    {
+        "merged": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/keyboard_background_holo.9.png",
+        "source": "/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/keyboard_background_holo.9.png"
+    }
+]

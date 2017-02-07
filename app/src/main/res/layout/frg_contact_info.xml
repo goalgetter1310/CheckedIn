@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.checkedin.fragment.ProfileEditContactInfoFrg" />
+
+    </data>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp">
+
+
+        <com.material.widget.EditText
+            android:id="@+id/et_username"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:drawableLeft="@drawable/ic_name_grey_20dp"
+            android:drawablePadding="@dimen/_6sdp"
+            android:drawableStart="@drawable/ic_name_grey_20dp"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="@string/username"
+            android:maxLength="20"
+            android:inputType="text"
+            android:maxLines="1"
+            android:nextFocusLeft="@+id/et_sign_email"
+            android:textSize="@dimen/_14sdp"
+            app:et_labelEnable="false"
+            app:et_supportMode="helperWithError" />
+
+        <com.material.widget.EditText
+            android:id="@+id/et_email"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:drawableLeft="@drawable/ic_email_grey_20dp"
+            android:drawablePadding="@dimen/_6sdp"
+            android:drawableStart="@drawable/ic_email_grey_20dp"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="@string/email_address"
+            android:maxLength="60"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="@dimen/_14sdp"
+            app:et_labelEnable="false"
+            app:et_supportMode="helperWithError" />
+
+        <com.material.widget.EditText
+            android:id="@+id/et_mobile"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:drawableLeft="@drawable/ic_mobile_grey_20dp"
+            android:drawablePadding="@dimen/_6sdp"
+            android:drawableStart="@drawable/ic_mobile_grey_20dp"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="@string/mobile_number"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            android:maxLength="14"
+            android:maxLines="1"
+            android:nextFocusLeft="@+id/et_sign_email"
+            android:textSize="@dimen/_14sdp"
+            app:et_labelEnable="false"
+            app:et_supportMode="helperWithError" />
+
+        <com.material.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@color/colorPrimary"
+            android:onClick="@{fragment.saveBtnClick}"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+</layout>

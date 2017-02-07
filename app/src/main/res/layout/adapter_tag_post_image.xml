@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_10sdp" >
+
+    <ImageView
+        android:id="@+id/adapter_upload_image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover_image"
+        android:contentDescription="@string/no_image_avaliable" />
+
+    <ImageView
+        android:id="@+id/adapter_upload_image_iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_cancel_white_24dp"
+        android:contentDescription="@string/no_image_avaliable" />
+
+    <EditText
+        android:id="@+id/adapter_upload_edt_caption"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@+id/adapter_upload_image_iv"
+        android:background="@android:color/white"
+        android:hint="Add Caption"
+        android:maxLength="65535"
+        android:padding="@dimen/_5sdp"
+        android:textSize="@dimen/_10sdp" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<h1><strong>Terms Of Use / Service</strong></h1>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.1 These terms and conditions shall govern your use of our Application.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.2 By using our Application, you accept these terms and conditions in full; accordingly, if you </span></p>
+<p><span style="font-weight: 400;">disagree with these terms and conditions or any part of these terms and conditions, you must not use our Application.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.3 If you [register with our Application, submit any material to our Application or use any of our Application services], we will ask you to expressly agree to these terms and conditions.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.4 You must be at least [18] years of age to use our Application; by using our Application or agreeing to these terms and conditions, you warrant and represent to us that you are at least [18] years of age.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.5 The &nbsp;application get access your Send MMS service, Location, Send email Service, Contacts List and Camera for the use application.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.6 Any abuse Picture, content or post will be remove by admin Also block that user and taking legal action against that user.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.7 CheckedIn asks for User's personal information (email, demographic location and address, age, name, sex, phone number, personality facets, interests when the User registers / Edit profile &nbsp;with the Application.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.8 The content of the pages of this Application is for your general information and use only. It is subject to change without notice.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">1.9 Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this Application for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.0 &nbsp;Your use of any information or materials on this Application is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this Application meet your specific requirements.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.1 This Application contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.2 Unauthorised use of this Application may give rise to a claim for damages and/or be a criminal offence.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.3 From time to time this Application may also include links to other Application . These links are provided for your convenience to provide further information. They do not signify that we endorse the Application(s). We have no responsibility for the content of the linked Application(s).</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.4 You shall not sell, rent or give away your Account, create an Account using a false identity or information, or on behalf of someone other than yourself; You shall not use the Service if you have previously been removed by Admin, or previously been banned from playing any Admin game;</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.5 You shall use your Account only for non-commercial purposes; You shall not use the Service to advertise, or solicit, or transmit any commercial advertisements, including chain letters, junk or spam e-mail or repetitive messages to anyone;</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.6 During the Account creation process, you will be required to select a password (&ldquo;Login Information&rdquo;). You shall not share the Account or the Login Information, nor let anyone else access your Account or do anything else that might jeopardize the security of your Account. In the event you become aware of or reasonably suspect any breach of security, including without limitation any loss, theft, or unauthorized disclosure of the Login Information, you must immediately notify Admin and modify your Login Information. You are solely responsible for maintaining the confidentiality of the Login Information, and you will be responsible for all uses of the Login Information, including purchases, whether or not authorized by you. You are responsible for anything that happens through your Account.</span></p>
+<p><strong><strong>&nbsp;</strong></strong></p>
+<p><span style="font-weight: 400;">2.7 Admin reserves the right to remove or reclaim any usernames at any time and for any reason, including but not limited to claims by a third party that a username violates the third party&rsquo;s rights.</span></p>
+<p><strong><strong><br /><br /><br /></strong></strong></p>
+<p><strong>License Limitations</strong></p>
+<p><span style="font-weight: 400;">Any use of the Service in violation of these License Limitations is strictly prohibited, can result in the immediate revocation of your limited license and may subject you to liability for violations of law.</span></p>
+<p><span style="font-weight: 400;">You agree that you will not, under any circumstances:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Engage in any act that Supercell deems to be in conflict with the spirit or intent of the Service or make improper use of Supercell&rsquo;s support services.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use cheats, exploits, automation software, bots, hacks, mods or any unauthorized third-party software designed to modify or interfere with the Service, any Supercell Game or any Supercell game experience or without Supercell&rsquo;s express written consent, modify or cause to be modified any files that are a part of the Service or any Supercell game.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Disrupt, overburden, or aid or assist in the disruption or overburdening of any computer or server (&ldquo;Server&rdquo;) used to offer or support the Service or any Supercell game environment.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Institute, assist, or become involved in any type of attack, including without limitation distribution of a virus, denial of service attacks upon the Service, or other attempts to disrupt the Service or any other person&rsquo;s use or enjoyment of the Service.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Attempt to gain unauthorized access to the Service, Accounts registered to others or to the computers, Servers, or networks connected to the Service by any means other than the user interface provided by Supercell, including but not limited to, by circumventing or modifying, attempting to circumvent or modify, or encouraging or assisting any other person to circumvent or modify, any security, technology, device, or software that is part of the Service.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Post any information that is abusive, threatening, obscene, defamatory, libelous, or racially, sexually, religiously, or otherwise objectionable or offensive.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Post any information that contains nudity, excessive violence, or offensive subject matter or that contains a link to such content.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Attempt to, or harass, abuse, or harm, or advocate or incite harassment, abuse, or harm of another person, group, including Supercell employees, including Supercell&rsquo;s customer service representatives.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Make available through the Service any material or information that infringes any copyright, trademark, patent, trade secret, right of privacy, right of publicity, or other right of any person or entity or impersonates any other person, including without limitation a Supercell employee.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Reverse engineer, decompile, disassemble, decipher or otherwise attempt to derive the source code for any underlying software or other intellectual property used to provide the Service or any Supercell game, or to obtain any information from the Service or any Supercell game using any method not expressly permitted by Supercell.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Solicit or attempt to solicit personal information from other users of the Service or any Supercell game or collect or post anyone&rsquo;s private information, including personally identifiable information (whether in text, image or video form), identification documents, or financial information through the Service.</span></li>
+</ul>

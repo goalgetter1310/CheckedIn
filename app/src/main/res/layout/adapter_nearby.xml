@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="holder"
+            type="com.checkedin.adapter.NearByAdapter.ViewHolder" />
+
+        <variable
+            name="items"
+            type="com.checkedin.model.Place" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{holder.onItemClick}"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_right_arrow_grey_20dp"
+            android:drawableRight="@drawable/ic_right_arrow_grey_20dp"
+            android:padding="@dimen/_8sdp"
+            android:text="@{items.name}"
+            android:textSize="@dimen/_14sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_light" />
+
+    </LinearLayout>
+
+
+</layout>

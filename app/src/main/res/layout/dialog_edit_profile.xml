@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/iv_edit_profile_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:contentDescription="@string/no_image_avaliable"
+            android:src="@drawable/ic_back_white_20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_edit_profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center">
+
+        <com.checkedin.views.CircleImageView
+            android:id="@+id/civ_edit_profile_img"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/ic_placeholder" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="horizontal">
+
+                    <com.material.widget.EditText
+                        android:id="@+id/et_edit_profile_fname"
+                        style="@style/Material.Widget.EditText.Light"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2sdp"
+                        android:layout_marginRight="@dimen/_2sdp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_name_grey_20dp"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableStart="@drawable/ic_name_grey_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/first_name"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:nextFocusLeft="@+id/et_sign_email"
+                        android:textSize="@dimen/_14sdp"
+                        app:et_supportMode="none" />
+
+                    <com.material.widget.EditText
+                        android:id="@+id/et_edit_profile_lname"
+                        style="@style/Material.Widget.EditText.Light"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_2sdp"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_name_grey_20dp"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableStart="@drawable/ic_name_grey_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/last_name"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:nextFocusDown="@+id/et_sign_email"
+                        android:singleLine="true"
+                        android:textSize="@dimen/_14sdp"
+                        app:et_supportMode="none" />
+                </LinearLayout>
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_username"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:drawableLeft="@drawable/ic_name_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_name_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/username"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:baselineAligned="false"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2sdp"
+                        android:layout_marginRight="@dimen/_2sdp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginEnd="@dimen/_6sdp"
+                            android:layout_marginRight="@dimen/_6sdp"
+                            android:contentDescription="@string/no_image_avaliable"
+                            android:src="@drawable/ic_gender_grey_20dp" />
+
+                            <!--app:rd_delayClick="false"-->
+                        <com.material.widget.Spinner
+                            android:id="@+id/sp_edit_profile_gender"
+                            style="@style/Material.Widget.Spinner.Light"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            app:rd_enable="true"
+                            app:rd_style="@style/Material.Drawable.Ripple.Wave.Light"
+                            app:spn_arrowAnimDuration="@android:integer/config_shortAnimTime"
+                            app:spn_arrowInterpolator="@android:anim/decelerate_interpolator"
+                            app:spn_arrowSize="@dimen/_5sdp"
+                            app:spn_arrowSwitchMode="true"
+                            app:spn_label="@string/gender"
+                            app:spn_labelEnable="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginEnd="@dimen/_6sdp"
+                            android:layout_marginRight="@dimen/_6sdp"
+                            android:contentDescription="@string/no_image_avaliable"
+                            android:src="@drawable/ic_marital_status_grey_20dp" />
+
+                            <!--app:rd_delayClick="false"-->
+                        <com.material.widget.Spinner
+                            android:id="@+id/sp_edit_profile_maritalstatus"
+                            style="@style/Material.Widget.Spinner.Light"
+                            app:rd_enable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            app:rd_style="@style/Material.Drawable.Ripple.Wave.Light"
+                            app:spn_arrowAnimDuration="@android:integer/config_shortAnimTime"
+                            app:spn_arrowInterpolator="@android:anim/decelerate_interpolator"
+                            app:spn_arrowSize="@dimen/_5sdp"
+                            app:spn_arrowSwitchMode="true"
+                            app:spn_label="@string/marital_status"
+                            app:spn_labelEnable="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp">
+
+                    <com.material.widget.EditText
+                        android:id="@+id/et_edit_profile_dob"
+                        style="@style/Material.Widget.EditText.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_dob_grey_20dp"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableStart="@drawable/ic_dob_grey_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/date_of_birth"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:nextFocusLeft="@+id/et_sign_email"
+                        android:textSize="@dimen/_14sdp"
+                        app:et_supportMode="none" />
+
+                    <View
+                        android:id="@+id/edit_profile_btn_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true" />
+                </FrameLayout>
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_email"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:drawableLeft="@drawable/ic_email_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_email_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="horizontal">
+
+                    <com.material.widget.EditText
+                        android:id="@+id/et_edit_profile_city"
+                        style="@style/Material.Widget.EditText.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_city_grey_20dp"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableStart="@drawable/ic_city_grey_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/city"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:nextFocusLeft="@+id/et_sign_email"
+                        android:textSize="@dimen/_14sdp"
+                        app:et_supportMode="none" />
+
+
+                    <com.material.widget.EditText
+                        android:id="@+id/et_edit_profile_state"
+                        style="@style/Material.Widget.EditText.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_email_grey_20dp"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableStart="@drawable/ic_email_grey_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/state"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/et_sign_email"
+                        android:textSize="@dimen/_14sdp"
+                        app:et_supportMode="none" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp">
+
+                    <com.material.widget.EditText
+                        android:id="@+id/et_edit_profile_country"
+                        style="@style/Material.Widget.EditText.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_email_grey_20dp"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableStart="@drawable/ic_email_grey_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/country"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_14sdp"
+                        app:et_supportMode="none" />
+
+                    <View
+                        android:id="@+id/edit_profile_btn_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true" />
+                </FrameLayout>
+
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_mobile"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:drawableLeft="@drawable/ic_mobile_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_mobile_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/mobile_number"
+                    android:inputType="phone"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_occu"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:drawableLeft="@drawable/ic_mobile_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_mobile_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/occupation"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_eduI"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:drawableLeft="@drawable/ic_edu_inst_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_edu_inst_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/eduInst"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_cmp"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:drawableLeft="@drawable/ic_edu_inst_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_edu_inst_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/company"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_edit_profile_foi"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_edu_inst_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_edu_inst_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/field_of_interest"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_supportMode="none" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp">
+
+                <com.material.widget.Button
+                    android:id="@+id/btn_edit_profile_change"
+                    style="@style/RaiseWaveColorButtonRippleStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/update"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

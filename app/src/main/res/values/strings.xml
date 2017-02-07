@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Gcm Server key AIzaSyBDPFw_eOh4dCUkrE_cDeSzjs9Ekh3t8q8-->
+    <!--<string name="gcm_project_id">308197681931</string>-->
+    <!--AIzaSyBDPFw_eOh4dCUkrE_cDeSzjs9Ekh3t8q8-->
+
+    <!-- Screen Titles -->
+    <string name="title_sign_up">Sign Up</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_home">Home</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_location">Location</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_invite">Invite Friends</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_tutorial">Tutorial</string>
+    <string name="title_login">Login</string>
+    <string name="title_friend_activity">Friend\'s Activity</string>
+    <string name="title_search">Search Place</string>
+    <string name="title_future_planning">Planning</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_friend_list">Friend List</string>
+    <string name="title_checkiedn_lounge">CheckedIn Lounge</string>
+    <string name="title_chat_box">Chat Box</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="title_friend_request">Friend Request</string>
+    <string name="title_sub_category">Sub Category</string>
+    <string name="title_category">Category</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_block_list">Block List</string>
+    <string name="title_support">Support</string>
+    <string name="title_help">Help</string>
+    <string name="title_terms_condition">Terms of Use</string>
+    <string name="title_privacy">Privacy</string>
+
+    <!-- pull to refresh -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh&#8230;</string>
+    <string name="pull_to_refresh_release_label">Release to refresh&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">Loading&#8230;</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh&#8230;</string>
+    <string name="click_to_load_more">Click to load more</string>
+
+
+    <!-- Other -->
+    <string name="app_name">CheckedIn</string>
+    <string name="facebook_app_id">1811503262435853</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="username">Username</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="agree_tc">I agree to terms and conditions</string>
+    <string name="forgot_your_password">Forgot your Password ?</string>
+    <string name="reset_password_link">Enter your email below to receive your\npassword link</string>
+    <string name="send_password">Send Password</string>
+    <string name="friends_activity">Friend\'s Activity</string>
+    <string name="selfie">Selfie</string>
+    <string name="gallery">Gallery</string>
+    <string name="search_place">Search for Place</string>
+    <string name="search">Search</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="chat_msg">Enter Your message..</string>
+    <string name="server_connect_error">Server Connection Error</string>
+    <string name="select_profile_img">Please Select Profile Picture</string>
+    <string name="hide">Hide</string>
+    <string name="no_internet_connect">No Internet Connection</string>
+    <string name="logout">Logout</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="update">Update</string>
+    <string name="gender">Gender</string>
+    <string name="friend">Friend</string>
+    <string name="declined">Declined</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="location_not_available">Location not available</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="people_likes">People who like this</string>
+    <string name="no_likes">Be first to like this</string>
+    <string name="write_comment">Write a comment&#8230;</string>
+    <string name="dislike">Dislike</string>
+    <string name="comment">Comment</string>
+    <string name="like">Like</string>
+    <string name="add">Add</string>
+    <string name="distance_unknown">Distance Unknown</string>
+    <string name="place">Place</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="checkin_location_confirm">Are you in same CheckedIn Lounge ?</string>
+    <string name="see_all_photos">See All Photos</string>
+    <string name="old_password">Old Password</string>
+    <string name="filter">Filter</string>
+    <string name="search_by">Search By</string>
+    <string name="block">Block</string>
+    <string name="occupation">Occupation</string>
+    <string name="eduInst">Education Institute</string>
+    <string name="company">Company</string>
+    <string name="field_of_interest">Field Of Interest</string>
+    <string name="clear">Clear</string>
+    <string name="unblock">Unblock</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="countries">Countries</string>
+    <string name="education_institute">Education Institute</string>
+    <string name="activity">Activity</string>
+    <string name="apply">Apply</string>
+    <string name="invite_with_email">Invite with Email</string>
+    <string name="invite_with_contact_list">Invite with Contact List</string>
+    <string name="confirm_exit">Press BACK again to exit</string>
+    <string name="photos_count">%d Photos</string>
+    <string name="no_photos">No Photos</string>
+    <string name="checkin_count">%d Checkin</string>
+    <string name="no_checkin">No Checkin</string>
+    <string name="activity_count">%d Activity</string>
+    <string name="no_activity">No Activity</string>
+    <string name="planning_count">%d Planning</string>
+    <string name="no_planning">No Planning</string>
+    <string name="invite_friend_sms"> Hi, I have stated using CheckedIn App to post activity, checkin to location, share your Plan. DownLoad app Now Android: http://bit.ly/CheckedIn-Android Download app Now iOS: http://bit.ly/CheckedIn-iOS</string>
+    <string name="post_details">Post Details</string>
+    <string name="invite">Invite</string>
+    <string name="invite_your_friend">Invite Your Friend</string>
+    <string name="friend_email_invitation">Enter friend\'s email below to send invitation</string>
+    <string name="report_title">Help us understand what\'s happening!</string>
+    <string name="report_inapp">Report Inappropriate Content</string>
+    <string name="enter_comment">Enter your comment here</string>
+    <string name="report_now">Report Now</string>
+    <string name="report_content_title">CheckedIn</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="change">Change</string>
+    <string name="no_image_avaliable">No Image Available</string>
+    <string name="star">Star</string>
+    <string name="view">View</string>
+    <string name="logout_confirm">Are you sure you want to\nlogout ?</string>
+    <string name="unfriend_confirm">Are you sure you want unfriend %s ?</string>
+    <string name="block_confirm">Are you sure you want block %s ?</string>
+    <string name="post_plan_time">"Plan Time:- %s</string>
+    <string name="star_o_meter">Star-O-Meter</string>
+    <string name="gps_enable_request">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="last_checkin_time">Last Checkin: %s</string>
+    <string name="last_checkin_loc">At: %s</string>
+    <string name="public_str">Public</string>
+    <string name="report_reason_1">I think it should\'t be on CheckedIn</string>
+    <string name="report_reason_2">It\'s spam</string>
+    <string name="report_reason_3">It\'s rude, vulgar or uses bad language</string>
+    <string name="report_reason_4">It\'s sexually explicit</string>
+    <string name="report_reason_5">It\'s harassment or hate speech</string>
+    <string name="report_reason_6">It\'s threatening, violent or suicidal</string>
+    <string name="report_reason_7">Something else</string>
+    <string name="add_new_location">Can\'t Find a Place? Add One</string>
+    <string name="what_upto">What are you up to?</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="feedback">Feedback</string>
+    <string name="to_with_colon">To:</string>
+    <string name="at_with_place">at %s</string>
+    <string name="only_me">Only Me</string>
+    <string name="cancel">Cancel</string>
+    <string name="share_with">Share With</string>
+    <string name="no_location">No Location Found</string>
+    <string name="location">Location</string>
+    <string name="new_sub_category">Add New Sub Category</string>
+    <string name="no_friend">No Friend</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="edit">Edit</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="places_you_have_lived">Places You\'ve Lived</string>
+    <string name="education">Education</string>
+    <string name="work">Work</string>
+    <string name="birthday">Birthday</string>
+    <string name="relationship">Relationship</string>
+    <string name="current_town">Current Town</string>
+    <string name="home_town">Home Town</string>
+    <string name="add_current_town">Add Current Town</string>
+    <string name="add_home_town">Add Home Town</string>
+    <string name="add_university">Add University</string>
+    <string name="university">University</string>
+    <string name="high_school">High School</string>
+    <string name="add_high_school">Add High School</string>
+    <string name="add_work">Add Work</string>
+    <string name="friends_with_total">"%d Friends"</string>
+    <string name="save">Save</string>
+    <string name="current_city">Current City</string>
+    <string name="graduated">Graduated</string>
+    <string name="city_town">City/Town(Requied)</string>
+    <string name="from_year">From Year</string>
+    <string name="to_year">To Year</string>
+    <string name="details">Details</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="where_work">Where did you work ?</string>
+    <string name="position">Position</string>
+    <string name="i_work_here">I currently work here</string>
+    <string name="delete">Delete</string>
+    <string name="sub_category_text_validation">Sub Category must be more than 3 characters</string>
+    <string name="location_text_validation">Location must be more than 3 characters</string>
+    <string name="sub_category_validation_msg">Please enter minimum 3 character name</string>
+    <string name="town">Town</string>
+    <string name="interest">Interest</string>
+    <string name="recommended_by_app">Recommended by App</string>
+    <string name="checkin">Checkin</string>
+    <string name="cant_find_place">Can\'t find a place, add one</string>
+    <string name="done">Done</string>
+    <string name="checkin_stars">Check In Stars</string>
+    <string name="activity_stars">Activity Stars</string>
+    <string name="planning_stars">Planning Stars</string>
+    <string name="app_open_stars">App Open Stars</string>
+    <string name="post_stars">Post Stars</string>
+    <string name="checkedin_stars">CheckedIn Stars</string>
+    <string name="add_new">Add New</string>
+    <string name="set">Set</string>
+    <string name="post">Post</string>
+    <string name="title_tag_friends">With Whom</string>
+    <string name="friends">Friends</string>
+    <string name="total_friends">%d Friends</string>
+    <string name="total_friend">%d Friend</string>
+    <string name="total_requests">%d Requests</string>
+    <string name="total_request">%d Request</string>
+    <string name="what_are_you_doing">What are you doing ?</string>
+    <string name="what_are_you_planning">What are you planning ?</string>
+    <string name="got_it">Got IT</string>
+    <string name="finish">Finish</string>
+    <string name="location_guide"><![CDATA[Check-in wherever you go & find out nearby places from your cunrrent location]]></string>
+    <string name="checedin_lounde_guide">Connect with like minded people in the same checked-in place as yours</string>
+    <string name="activity_guide">Pen down various day to day activities</string>
+    <string name="friends_activity_guide"><![CDATA[Track your friends activities & whereabouts]]></string>
+    <string name="planning_guide">Pen down your Plans</string>
+    <string name="chat_guide">Chat with checked-in users in the same lounge</string>
+    <string name="present">Present</string>
+    <string name="empty_date">0000–00–00</string>
+    <string name="not_mention">Not Mention</string>
+    <string name="new_password">New Password</string>
+    <string name="title_planning">Planning</string>
+    <string name="title_checkedlin">CheckedIn</string>
+    <string name="groufie">Groufie</string>
+    <string name="share">Share</string>
+
+    <!-- Settings -->
+    <string-array name="settings">
+        <item>@string/title_change_password</item>
+        <item>@string/title_support</item>
+        <item>@string/title_block_list</item>
+        <item>@string/title_privacy</item>
+    </string-array>
+    <string-array name="support">
+        <item>Help Center</item>
+        <item>Feedback</item>
+        <item>Terms of Use</item>
+    </string-array>
+    <string-array name="arr_marital_status">
+        <item>Single</item>
+        <item>Married</item>
+        <item>In a Relationship</item>
+    </string-array>
+    <string-array name="arr_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="lounge_filter_criteria">
+        <item>Name</item>
+        <item>Age</item>
+        <item>City</item>
+        <item>Gender</item>
+        <item>Country</item>
+        <item>Occupation</item>
+        <item>Education Institute</item>
+        <item>Company</item>
+        <item>Field of Interest</item>
+    </string-array>
+
+
+    <string-array name="post_privacy">
+        <item>@string/public_str</item>
+        <item>@string/friend</item>
+        <item>@string/only_me</item>
+    </string-array>
+
+
+</resources>

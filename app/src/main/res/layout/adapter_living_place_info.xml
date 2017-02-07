@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="holder"
+            type="com.checkedin.adapter.LivingPlaceInfoAdapter.ViewHolder" />
+
+        <variable
+            name="items"
+            type="com.checkedin.model.LivingPlace" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="@{holder.isEditable()}"
+        android:onClick="@{holder.onItemClick}"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:paddingTop="@dimen/_8sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{items.getDisplayType()}"
+                    android:textColor="@color/server_filter_selected"
+                    android:textSize="@dimen/_16sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="@{items.getFullAddress()}"
+                    android:textColor="@color/server_filter"
+                    android:textSize="@dimen/_14sdp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/no_image_avaliable"
+                android:src="@drawable/ic_right_arrow_grey_20dp"
+                android:visibility="@{holder.isEditable() ?View.VISIBLE: View.GONE}" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/server_filter_selected" />
+    </LinearLayout>
+</layout>

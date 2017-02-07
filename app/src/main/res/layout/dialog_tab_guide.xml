@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/guide_transparent"
+        android:layout_height="match_parent">
+
+        <com.material.widget.Button
+            android:id="@+id/btn_gotit"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_12sdp"
+            android:text="@string/got_it"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/dialog_tab_tv_title"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="12dp"
+                android:gravity="center"
+                android:text="@string/friends_activity_guide"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                />
+
+
+        <LinearLayout
+            android:id="@+id/dialog_tab_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:visibility="visible">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/dialog_tab_ll_home"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:tint="@android:color/white"
+        android:rotation="180"
+        android:src="@drawable/ic_arrow_down_hard"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:paddingTop="@dimen/_3sdp"
+        android:layout_width="match_parent"
+        android:tint="@color/colorControlActivated"
+        android:src="@drawable/ic_tab_home_h"
+        android:layout_height="@dimen/_50sdp" />
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:id="@+id/dialog_tab_ll_location"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@android:color/white"
+                    android:rotation="180"
+                    android:src="@drawable/ic_arrow_down_hard"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:paddingTop="@dimen/_3sdp"
+                    android:layout_width="match_parent"
+                    android:tint="@color/colorControlActivated"
+                    android:src="@drawable/ic_tab_location_h"
+                    android:layout_height="@dimen/_50sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:visibility="invisible"
+                android:id="@+id/dialog_tab_ll_longue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@android:color/white"
+                    android:rotation="180"
+
+                    android:src="@drawable/ic_arrow_down_hard"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:paddingTop="@dimen/_3sdp"
+                    android:layout_width="match_parent"
+                    android:tint="@color/colorControlActivated"
+                    android:src="@drawable/ic_tab_lounge_h"
+                    android:layout_height="@dimen/_50sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:gravity="center"
+                android:id="@+id/dialog_tab_ll_activity"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@android:color/white"
+                    android:rotation="180"
+                    android:src="@drawable/ic_arrow_down_hard"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:paddingTop="@dimen/_3sdp"
+                    android:layout_width="match_parent"
+                    android:tint="@color/colorControlActivated"
+                    android:src="@drawable/ic_tab_activity_h"
+                    android:layout_height="@dimen/_50sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/dialog_tab_ll_planning"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@android:color/white"
+                    android:rotation="180"
+                    android:src="@drawable/ic_arrow_down_hard"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:paddingTop="@dimen/_3sdp"
+                    android:layout_width="match_parent"
+                    android:tint="@color/colorControlActivated"
+                    android:src="@drawable/ic_tab_planning_h"
+                    android:layout_height="@dimen/_50sdp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+</layout>

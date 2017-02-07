@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.checkedin.fragment.ProfileEditWorkInfoFrg" />
+
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp">
+
+        <com.material.widget.EditText
+            android:id="@+id/et_work"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:drawableLeft="@drawable/ic_work_grey_20dp"
+            android:drawablePadding="@dimen/_6sdp"
+            android:drawableStart="@drawable/ic_work_grey_20dp"
+            android:gravity="center_vertical"
+            android:hint="@string/where_work"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:textSize="@dimen/_14sdp"
+            app:et_labelEnable="false"
+            app:et_supportMode="none" />
+
+
+        <com.material.widget.EditText
+            android:id="@+id/et_position"
+            style="@style/Material.Widget.EditText.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:drawableLeft="@drawable/ic_name_grey_20dp"
+            android:drawablePadding="@dimen/_6sdp"
+            android:drawableStart="@drawable/ic_name_grey_20dp"
+            android:gravity="center_vertical"
+            android:hint="@string/position"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textSize="@dimen/_14sdp"
+            app:et_labelEnable="false"
+            app:et_supportMode="none" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp">
+
+            <com.material.widget.EditText
+                android:id="@+id/et_city_town"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:drawableLeft="@drawable/ic_city_grey_20dp"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableStart="@drawable/ic_city_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/city_town"
+                android:maxLines="2"
+                android:textSize="@dimen/_14sdp"
+                app:et_labelEnable="false"
+                app:et_supportMode="none" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:clickable="true"
+                android:onClick="@{fragment.placeSelect}" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_from_year"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_marginRight="@dimen/_4sdp"
+                    android:clickable="false"
+                    android:drawableLeft="@drawable/ic_date_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_date_grey_20dp"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/from_year"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_labelEnable="false"
+                    app:et_supportMode="none" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:clickable="true"
+                    android:onClick="@{fragment.fromDateClick}" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_to_year"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:clickable="false"
+                    android:drawableLeft="@drawable/ic_date_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_date_grey_20dp"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/to_year"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_labelEnable="false"
+                    app:et_supportMode="none" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:clickable="true"
+                    android:onClick="@{fragment.toDateClick}" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_current_work"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:drawableEnd="@drawable/ic_circle_orange_20dp"
+                android:drawableRight="@drawable/ic_circle_orange_20dp"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:inputType="none"
+                android:maxLines="1"
+                android:text="@string/i_work_here"
+                android:textSize="@dimen/_16sdp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:clickable="true"
+                android:onClick="@{fragment.currentWorkToggle}" />
+            <!--android:onClick="@{fragment.birthdayClick}"-->
+        </FrameLayout>
+
+        <com.material.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@color/colorPrimary"
+            android:onClick="@{fragment.saveBTnClick}"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+</layout>

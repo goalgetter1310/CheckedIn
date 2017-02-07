@@ -1,0 +1,84 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.21.7'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0"
+    defaultConfig {
+        applicationId 'com.checkedin'
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 10
+        multiDexEnabled true
+        versionName '1.9'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    dataBinding {
+        enabled = true
+    }
+    lintOptions {
+        abortOnError false
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+    useLibrary 'org.apache.http.legacy'
+    productFlavors {
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile project(':checkInLib')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile files('libs/glide-3.6.0.jar')
+    compile files('libs/jsr305-1.3.9.jar')
+    compile 'com.google.code.gson:gson:2.4'
+    compile files('libs/volley.jar')
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.google.android.gms:play-services-gcm:9.2.0'
+    compile 'com.google.android.gms:play-services-analytics:9.2.0'
+    compile 'com.google.android.gms:play-services-places:9.2.0'
+    compile 'id.zelory:compressor:1.0.2'
+    compile('org.apache.httpcomponents:httpmime:4.3') {
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }
+    compile('org.apache.httpcomponents:httpcore:4.4.1') {
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+
+    }
+    compile project(':emojislib')
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+        transitive = true;
+    }
+    compile 'com.github.nkzawa:socket.io-client:0.3.0'
+    compile project(':utillib-1.0')
+    compile project(':facebook-android-sdk-4.14.0')
+    compile 'com.wang.avi:library:2.1.3'
+}

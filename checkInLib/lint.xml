@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="res/values/styles.xml" />
+        <ignore path="src/com/rey/material/app/ToolbarManager.java" />
+        <ignore path="src/com/rey/material/widget/Slider.java" />
+        <ignore path="src/com/yudiz/material/app/DatePickerDialog.java" />
+    </issue>
+</lint>

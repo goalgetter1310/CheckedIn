@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.checkedin.fragment.ProfileEditLivingPlaceInfoFrg" />
+
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp">
+
+            <com.material.widget.EditText
+                android:id="@+id/et_current_city"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:drawableLeft="@drawable/ic_city_grey_20dp"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableStart="@drawable/ic_city_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/current_city"
+                android:maxLines="2"
+                android:textSize="@dimen/_14sdp"
+                app:et_labelEnable="false"
+                app:et_supportMode="none" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:clickable="true"
+                android:onClick="@{fragment.currentCityClick}" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp">
+
+            <com.material.widget.EditText
+                android:id="@+id/et_home_town"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:drawableLeft="@drawable/ic_home_grey_20dp"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableStart="@drawable/ic_home_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/home_town"
+                android:maxLines="2"
+                android:textSize="@dimen/_14sdp"
+                app:et_labelEnable="false"
+                app:et_supportMode="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:clickable="true"
+                android:onClick="@{fragment.homeTownClick}" />
+
+        </FrameLayout>
+
+        <com.material.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@color/colorPrimary"
+            android:onClick="@{fragment.saveBtnClick}"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+</layout>

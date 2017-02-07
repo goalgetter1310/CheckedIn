@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme -->
+    <color name="colorPrimary">#F4994A</color> <!-- #F4994A #16a085 -->
+    <color name="colorPrimaryDark">#F4994A</color>
+    <color name="colorAccent">#FF00E5FF</color>
+    <color name="colorControlNormal">#999999</color>
+    <color name="colorControlActivated">@color/colorPrimary</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+
+    <!-- Other -->
+    <color name="rb_checked">@color/colorPrimary</color>
+    <color name="rb_unchecked">#FF6D6D6D</color>
+    <color name="rb_disable">#FFB0B0B0</color>
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+
+    <color name="color_dark_orange">#44F4994A</color>
+    <color name="color_gray">#a9abae</color>
+
+    <color name="error">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_transparent">#11555555</color>
+    <color name="chat_bg_light">#77FFFFFF</color>
+    <color name="home_divider">#99FFFFFF</color>
+    <color name="white_transparent">#AAFFFFFF</color>
+    <color name="divider_light">#55CCCCCC</color>
+    <color name="light_transparent">#22000000</color>
+    <color name="chat_bg_dark">#6692A0A3</color>
+    <color name="drawer_top">#709C9fA6</color>
+    <color name="compatibility_background">#55555555</color>
+    <color name="chat_text_bg">#AAAAAA</color>
+    <color name="icon_default">#9c9fa6</color>
+    <color name="compatibility_bottom">#99585858</color>
+    <color name="dark_transparent">#66000000</color>
+    <color name="chat_smily_bg">#888888</color>
+    <color name="server_filter_selected">#898989</color>
+    <color name="invite_name">#737778</color>
+    <color name="text_color">#777777</color>
+    <color name="server_filter">#434343</color>
+    <color name="dialog_transparent">#55000000</color>
+    <color name="guide_transparent">#99000000</color>
+
+    <color name="denim_blue">#3b5998</color>
+
+    <!-- gallery -->
+    <color name="holo_blue_bright">@color/colorAccent</color>
+    <color name="menu_bg">#101F2D</color>
+    <color name="light_gray">#AA808080</color>
+    <color name="gray">#dddddd</color>
+    <color name="tab_bg">#142029</color>
+    <color name="bg_light_blue">#EBF5FF</color>
+    <color name="light_black">#CC000000</color>
+    <color name="light_black_AA">#AA000000</color>
+    <color name="light_black_">#33000000</color>
+    <color name="light_white_">#33FFFFFF</color>
+    <color name="dialog_bg">#f0f0f0</color>
+
+    <drawable name="light_black_">#33000000</drawable>
+</resources>

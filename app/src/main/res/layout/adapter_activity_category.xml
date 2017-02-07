@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="holder"
+            type="com.checkedin.adapter.ActivityCategoryAdapter.ViewHolder" />
+
+        <variable
+            name="items"
+            type="com.checkedin.model.ActivityCategory" />
+
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="@{holder.onItemClick}"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_4sdp"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:paddingTop="@dimen/_4sdp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_circle_fill_boder_grey">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/_18sdp"
+                android:contentDescription="@string/no_image_avaliable"
+                app:categoryImage="@{items.getImage()}" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingTop="@dimen/_4sdp"
+            android:text="@{items.getName()}"
+            android:textColor="@color/compatibility_bottom"
+            android:textSize="@dimen/_11sdp" />
+
+    </LinearLayout>
+</layout>

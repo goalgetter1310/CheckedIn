@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.checkedin.fragment.ProfileEditBasicInfoFrg" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center">
+
+            <com.checkedin.views.CircleImageView
+                android:id="@+id/civ_profileImg"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:onClick="@{fragment.profileImgClick}"
+                android:src="@drawable/ic_placeholder"
+                app:border_color="@color/divider_light"
+                app:border_width="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:orientation="horizontal">
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_fname"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_marginRight="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_name_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_name_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/first_name"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:nextFocusLeft="@+id/et_sign_email"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_labelEnable="false"
+                    app:et_supportMode="helperWithError" />
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_lname"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_name_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_name_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/last_name"
+                    android:imeOptions="actionGo"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/et_sign_email"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_labelEnable="false"
+                    app:et_supportMode="helperWithError" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_marginRight="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="@dimen/_6sdp"
+                        android:layout_marginRight="@dimen/_6sdp"
+                        android:contentDescription="@string/no_image_avaliable"
+                        android:src="@drawable/ic_gender_grey_20dp" />
+
+                        <!--app:rd_delayClick="false"-->
+                    <com.material.widget.Spinner
+                        android:id="@+id/sp_gender"
+                        style="@style/Material.Widget.Spinner.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:gravity="bottom"
+                        app:rd_enable="true"
+                        app:rd_style="@style/Material.Drawable.Ripple.Wave.Light"
+                        app:spn_arrowAnimDuration="@android:integer/config_shortAnimTime"
+                        app:spn_arrowInterpolator="@android:anim/decelerate_interpolator"
+                        app:spn_arrowSize="@dimen/_5sdp"
+                        app:spn_arrowSwitchMode="true"
+                        app:spn_labelEnable="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:contentDescription="@string/no_image_avaliable"
+                        android:src="@drawable/ic_marital_status_grey_20dp" />
+
+                        <!--app:rd_delayClick="false"-->
+                    <com.material.widget.Spinner
+                        android:id="@+id/sp_relationship"
+                        style="@style/Material.Widget.Spinner.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:gravity="bottom"
+                        app:rd_enable="true"
+                        app:rd_style="@style/Material.Drawable.Ripple.Wave.Light"
+                        app:spn_arrowAnimDuration="@android:integer/config_shortAnimTime"
+                        app:spn_arrowInterpolator="@android:anim/decelerate_interpolator"
+                        app:spn_arrowSize="@dimen/_5sdp"
+                        app:spn_arrowSwitchMode="true"
+                        app:spn_labelEnable="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_dob"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:drawableLeft="@drawable/ic_date_grey_20dp"
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableStart="@drawable/ic_date_grey_20dp"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/birthday"
+                    android:imeOptions="actionNone"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:nextFocusLeft="@+id/et_sign_email"
+                    android:paddingBottom="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:textSize="@dimen/_14sdp"
+                    app:et_labelEnable="false"
+                    app:et_supportMode="none" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:clickable="true"
+                    android:onClick="@{fragment.birthdayClick}" />
+
+            </FrameLayout>
+
+            <com.material.widget.Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:background="@color/colorPrimary"
+                android:onClick="@{fragment.saveBtnClick}"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

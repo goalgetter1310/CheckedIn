@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.checkedin.MainActivity">
+
+    <item
+        android:id="@+id/itm_menu_notification"
+        android:icon="@drawable/ic_chat_single_wifi"
+        android:orderInCategory="100"
+        android:title="@string/title_chat_box"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_search_place"
+        android:icon="@drawable/ic_search_white_16dp"
+        android:title="@string/search_place"
+        android:visible="false"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_friend"
+        android:icon="@drawable/ic_friend_list_outline_white_24dp"
+        android:title="@string/friends"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_post"
+        android:title="@string/post"
+        android:visible="false"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_chat_friend"
+        android:icon="@drawable/ic_friend_list_outline_white_24dp"
+        android:title="@string/title_friend_list"
+        android:visible="false"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_server_filter"
+        android:icon="@drawable/ic_filter_grey_24dp"
+        android:title="@string/filter"
+        android:visible="false"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_chat_clear"
+        android:title="@string/clear"
+        android:visible="false"
+        appcompat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_menu_chat_user"
+        android:icon="@drawable/ic_placeholder"
+        android:title="@string/name"
+        android:visible="false"
+        appcompat:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/no_image_avaliable"
+                android:padding="@dimen/_14sdp"
+                android:src="@drawable/ic_back_white_20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/title_sign_up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <com.checkedin.views.CircleImageView
+                android:id="@+id/civ_profileImg"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:src="@drawable/ic_placeholder"
+                app:border_color="@color/icon_default"
+                app:border_width="@dimen/_1sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_fname"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_name_grey_20dp"
+                    android:drawablePadding="8dp"
+                    android:drawableStart="@drawable/ic_name_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/first_name"
+                    android:inputType="textCapSentences"
+                    android:imeOptions="actionNext"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_12sdp"
+                    app:et_dividerErrorColor="@color/error"
+                    app:et_supportMode="helper"
+                    app:et_supportTextErrorColor="@color/error" />
+
+                <com.material.widget.EditText
+                    android:id="@+id/et_lname"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_name_grey_20dp"
+                    android:drawablePadding="8dp"
+                    android:drawableStart="@drawable/ic_name_grey_20dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/last_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapSentences"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_12sdp"
+                    app:et_dividerErrorColor="@color/error"
+                    app:et_supportMode="helper"
+                    app:et_supportTextErrorColor="@color/error" />
+            </LinearLayout>
+
+            <com.material.widget.EditText
+                android:id="@+id/et_email"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email_grey_20dp"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/ic_email_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp"
+                app:et_dividerErrorColor="@color/error"
+                app:et_supportMode="helper"
+                app:et_supportTextErrorColor="@color/error" />
+
+            <com.material.widget.EditText
+                android:id="@+id/et_password"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_password_grey_20dp"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/ic_password_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/_12sdp"
+                app:et_dividerErrorColor="@color/error"
+                app:et_supportMode="helper"
+                app:et_supportTextErrorColor="@color/error" />
+
+            <com.material.widget.EditText
+                android:id="@+id/et_confirm_password"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_password_grey_20dp"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/ic_password_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/confirm_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp"
+                app:et_dividerErrorColor="@color/error"
+                app:et_supportMode="helper"
+                app:et_supportTextErrorColor="@color/error" />
+
+            <!--<com.material.widget.CheckBox-->
+            <!--android:id="@+id/cb_agree_tc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:checked="true"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/agree_tc"-->
+            <!--android:textColor="@color/chat_smily_bg"-->
+            <!--android:textSize="@dimen/_12sdp"-->
+            <!--app:cbd_boxSize="@dimen/_15sdp" />-->
+
+            <com.material.widget.Button
+                android:id="@+id/btn_signup"
+                style="@style/RaiseWaveColorButtonRippleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorPrimary"
+                android:text="@string/title_sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

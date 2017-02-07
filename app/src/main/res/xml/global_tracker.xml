@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">false</bool>
+
+    <!-- The screen names that will appear in reports -->
+
+    <screenName name="fragment.HomeFrg">Home Screen</screenName>
+    <!--<screenName name="fragments.CategoryFragment">Category Screen</screenName>-->
+    <!--<screenName name="fragments.CheckinFragment">Checkin Screen</screenName>-->
+    <!--<screenName name="fragments.ContactUsFragment">ContactUs Screen</screenName>-->
+    <!--<screenName name="fragments.HomeFragment">Home Screen</screenName>-->
+    <!--<screenName name="fragments.MapFragment">Map Screen</screenName>-->
+    <!--<screenName name="fragments.MiniMatesFragment">MiniMates Screen</screenName>-->
+    <!--<screenName name="fragments.NearMeFragment">NearMe Screen</screenName>-->
+    <!--<screenName name="fragments.ProviderFragment">Provider Screen</screenName>-->
+    <!--<screenName name="fragments.RegistrationFragment">Registration Screen</screenName>-->
+    <!--<screenName name="fragments.TermsConditionFragment">Terms and Conditions Screen</screenName>-->
+    <!--<screenName name="fragments.TownFragment">Town Screen</screenName>-->
+
+
+    <string name="ga_trackingId">UA-78303326-1</string>
+    <!--<string name="ga_trackingId">Analytics tracking ID-->
+    <!--UA-77217232-1-->
+    <!--</string>-->
+    <!--UA-56172063-2-->
+</resources>

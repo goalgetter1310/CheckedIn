@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:paddingTop="@dimen/_3sdp"
+        android:id="@+id/row_custom_tab_iv"
+        android:layout_width="match_parent"
+        android:src="@drawable/ic_tab_home_h"
+        android:tint="@color/colorControlActivated"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

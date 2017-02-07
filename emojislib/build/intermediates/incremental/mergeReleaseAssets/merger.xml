@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/sachin/Desktop/CurrentProject/checkedin/emojislib/src/main/assets"/><source path="/home/sachin/Desktop/CurrentProject/checkedin/emojislib/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/sachin/Desktop/CurrentProject/checkedin/emojislib/src/release/assets"/></dataSet></merger>

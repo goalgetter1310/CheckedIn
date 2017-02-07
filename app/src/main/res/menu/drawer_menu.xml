@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itm_nav_menu_home"
+        android:checkable="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/itm_nav_menu_friend_fav"
+        android:checkable="true"
+        android:icon="@drawable/ic_fav_outline_orange_28dp"
+        android:title="@string/title_favourites" />
+    <item
+        android:id="@+id/itm_nav_menu_setting"
+        android:checkable="true"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/title_setting" />
+    <item
+        android:id="@+id/itm_nav_menu_notification"
+        android:checkable="true"
+        android:icon="@drawable/ic_notify_outline_white_24dp"
+        android:title="@string/title_notifications" />
+    <!--<item-->
+        <!--android:id="@+id/itm_nav_menu_invite"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@drawable/ic_notification_border"-->
+        <!--android:title="@string/title_invite" />-->
+    <item
+        android:id="@+id/itm_nav_menu_about"
+        android:checkable="true"
+        android:icon="@drawable/ic_about"
+        android:title="@string/title_about_us"/>
+
+    <item
+        android:id="@+id/itm_nav_menu_tutorial"
+        android:checkable="true"
+        android:icon="@drawable/ic_menu_tutorial"
+        android:title="@string/title_tutorial"/>
+
+    <item
+        android:id="@+id/itm_nav_menu_logout"
+        android:checkable="true"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+
+</menu>

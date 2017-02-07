@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:contentDescription="@string/no_image_avaliable"
+            android:src="@drawable/login_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.67"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_22sdp"
+            android:paddingRight="@dimen/_22sdp">
+
+
+            <com.material.widget.EditText
+                android:id="@+id/et_email"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:drawableLeft="@drawable/ic_email_grey_20dp"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableStart="@drawable/ic_email_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:textSize="@dimen/_14sdp"
+                app:et_dividerErrorColor="@color/error"
+                app:et_supportMode="helper"
+                app:et_supportTextErrorColor="@color/error">
+
+                <requestFocus />
+            </com.material.widget.EditText>
+
+
+            <com.material.widget.EditText
+                android:id="@+id/et_password"
+                style="@style/Material.Widget.EditText.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_password_grey_20dp"
+                android:drawablePadding="@dimen/_6sdp"
+                android:drawableStart="@drawable/ic_password_grey_20dp"
+                android:gravity="center_vertical"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textSize="@dimen/_14sdp"
+                app:et_dividerErrorColor="@color/error"
+                app:et_supportMode="helper"
+                app:et_supportTextErrorColor="@color/error" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.55"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.material.widget.CheckBox
+                        android:id="@+id/cb_remember_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/remember_password"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_11sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.45"
+                    android:gravity="end">
+
+                    <com.material.widget.TextView
+                        android:id="@+id/tv_forgot_pass"
+                        style="@style/Material.Drawable.Ripple.Touch.Light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/forgot_password"
+                        android:textSize="@dimen/_11sdp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.material.widget.Button
+                android:id="@+id/btn_signin"
+                style="@style/RaiseWaveColorButtonRippleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/colorPrimary"
+                android:text="@string/sign_in"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

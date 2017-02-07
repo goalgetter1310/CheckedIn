@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_friend_search_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/no_image_avaliable"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_back_white_20dp"
+            android:tint="@color/icon_default" />
+
+        <EditText
+            android:id="@+id/et_friend_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_friend_search_back"
+            android:layout_toRightOf="@+id/iv_friend_search_back"
+            android:layout_toLeftOf="@+id/iv_friend_search_cancel"
+            android:layout_toStartOf="@+id/iv_friend_search_cancel"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/search"
+            android:inputType="textPersonName"
+            android:imeOptions="actionSearch"
+            android:maxLength="60"
+            android:maxLines="1"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp">
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/iv_friend_search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/no_image_avaliable"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_cross_grey_16dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_light" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_friend_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="gallery"
+            type="com.checkedin.activity.GalleryActivity.Gallery" />
+
+        <variable
+            name="holder"
+            type="com.checkedin.activity.GalleryActivity.GalleryAdapter.ViewHolder" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_margin="@dimen/_4sdp"
+        android:background="@drawable/shape_rect_border_trans"
+        android:onClick="@{holder.onItemClick}"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/no_image_avaliable"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_placeholder"
+            app:galleryImg="@{gallery.getPath()}" />
+
+
+        <com.material.widget.CheckBox
+            android:id="@+id/cb_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:contentDescription="@string/no_image_avaliable"
+            android:onClick="@{holder.onItemSelectedClick}"
+            android:src="@drawable/ic_circle_tick_orange_20dp"
+            android:visibility="@{holder.isMultiSelectable()?View.VISIBLE:View.GONE}" />
+
+    </FrameLayout>
+</layout>
